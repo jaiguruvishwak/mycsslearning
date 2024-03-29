@@ -1,0 +1,87 @@
+*{
+    margin: 0 auto;
+}
+
+.bakdrop{
+    background-image: linear-gradient(to top right, purple, rgb(0, 0, 0));
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form{
+    background-image: linear-gradient(to top left, rgba(128, 0, 128, 0.469), rgb(0, 0, 0));
+    position: absolute;
+    width: 400px;
+    height: 540px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    /*half of width */
+    margin-top: -270px;
+    /*half of height */
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 100px 20px;
+}
+
+h1{
+    font-family: 'poppins', sans-serif;
+    font-weight: 240;
+    color: #fff;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.user{
+    margin-top: 200px;
+    position: absolute;
+    border: none;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.user:hover{
+    box-shadow: 0px 0px 100px 20px black;
+    transition: 1s;
+    background-color: purple;
+    transition: 1s;
+    color: #fff;
+}
+
+.pwd{
+    margin-top: 250px;
+    border: none;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.pwd:hover{
+    box-shadow: 0px 0px 100px 40px black;
+    background-color: purple;
+    transition: 1s;
+}
+
+.next-btn{
+    margin-top: 320px;
+    position: absolute;
+    border: #fff;
+    padding: 7px 10px; 
+    left: 150px;
+    right: 150px;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+}
+
+.next-btn:hover{
+    box-shadow: 0px 0px 100px 5px #fff;
+    transition: 1s;
+}
