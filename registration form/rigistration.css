@@ -3,7 +3,7 @@
 }
 
 .bakdrop{
-    background-image: linear-gradient(to top right, purple, rgb(0, 0, 0));
+    background-image: linear-gradient(to top right, red, orange);
     height: 100%;
     width: 100%;
     background-position: center;
@@ -12,7 +12,6 @@
 }
 
 .form{
-    background-image: linear-gradient(to top left, rgba(128, 0, 128, 0.469), rgb(0, 0, 0));
     position: absolute;
     width: 400px;
     height: 540px;
@@ -24,7 +23,6 @@
     /*half of height */
     text-align: center;
     border-radius: 30px;
-    box-shadow: 0px 0px 100px 20px;
 }
 
 h1{
@@ -47,7 +45,7 @@ h1{
 .user:hover{
     box-shadow: 0px 0px 100px 20px black;
     transition: 1s;
-    background-color: purple;
+    background-color: orangered;
     transition: 1s;
     color: #fff;
 }
@@ -63,7 +61,7 @@ h1{
 
 .pwd:hover{
     box-shadow: 0px 0px 100px 40px black;
-    background-color: purple;
+    background-color: orangered;
     transition: 1s;
 }
 
@@ -76,12 +74,12 @@ h1{
     right: 150px;
     font-family: 'Poppins',sans-serif;
     border-radius: 5px;
-    background-color: purple;
+    background-color: red;
     color: #fff;
     cursor: pointer;
 }
 
 .next-btn:hover{
-    box-shadow: 0px 0px 100px 5px #fff;
+    box-shadow: 0px 0px 100px 10px #000;
     transition: 1s;
 }

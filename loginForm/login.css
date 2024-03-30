@@ -9,7 +9,7 @@
 .hero {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to top right, rgb(252, 68, 1), rgb(253, 0, 0));
+    background-image: linear-gradient(to top right, orange, red);
     background-position: center;
     background-size: cover;
     position: absolute;
